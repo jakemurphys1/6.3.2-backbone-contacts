@@ -5817,6 +5817,9 @@ button.close {
 img {
   max-width: 100%; }
 
+body {
+  height: 1000px; }
+
 #addForm {
   margin: 40px auto;
   width: 200px; }
