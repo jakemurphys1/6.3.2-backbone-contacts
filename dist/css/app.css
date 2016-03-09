@@ -5820,6 +5820,17 @@ img {
 body {
   height: 1000px; }
 
+.contacts-con {
+  height: 1000px; }
+
+.contacts-list {
+  height: 1000px;
+  border-right: 1px solid black; }
+
+.contacts-title {
+  text-align: center;
+  border-bottom: 1px solid black; }
+
 #addForm {
   margin: 40px auto;
   width: 200px; }
