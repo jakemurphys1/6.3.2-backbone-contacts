@@ -2,13 +2,13 @@
 var $ = require("jquery");
  var Backbone = require("backbone");
 var Collection = require("./models/contacts")
-var Contacts = require("./views/contacts")
- var myCollection = new Collection.contactCollection();
- var myModel=new Collection.Contact();
- console.log(myModel)
+//var Contacts = require("./views/contacts")
 
+Collection.ContactCollection.fetch().done(function(){
 
+})
 
+///submit button
  $("#addForm").submit(function(event){
      event.preventDefault();
    if($("#fname").val()===""){
@@ -17,6 +17,6 @@ var Contacts = require("./views/contacts")
    }
 
  $("#fname").val="";
-  var contactList = new myModel({name:$("#fname").val(), Email: $("#femail").val(), Phone:$("#fphone").val(), Twitter: $("#ftwitter").val(), Linkedin:$("#flink").val()})
+  var contactList = new Collection.Contact({name:$("#fname").val(), Email: $("#femail").val(), Phone:$("#fphone").val(), Twitter: $("#ftwitter").val(), Linkedin:$("#flink").val()})
   contactList.save();
 })
