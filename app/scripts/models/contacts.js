@@ -2,7 +2,7 @@ var Backbone = require("backbone");
 
 var Contact = Backbone.Model.extend({
 urlRoot: "http://tiny-lasagna-server.herokuapp.com/collections/Contacts-JakeandBrandon/",
-idAttribute: "_id"
+// idAttribute: "_id"
 });
 
 
