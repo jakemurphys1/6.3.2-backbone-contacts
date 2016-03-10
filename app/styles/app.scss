@@ -26,12 +26,16 @@ body {
 
 .contacts-list {
   height: 1000px;
-  border-right: 1px solid black;
+  border-right: 1px solid rgba(174, 174, 174, 1);
 }
 
 .contacts-title {
   text-align: center;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(174, 174, 174, 1);
+}
+
+.contact {
+  border-bottom: 1px solid rgba(174, 174, 174, 1);
 }
 
 #addForm{
